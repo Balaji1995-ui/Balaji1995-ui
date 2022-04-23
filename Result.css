@@ -1,0 +1,31 @@
+
+.result{
+height: 100vh;
+display: grid;
+place-items: center;
+    
+    }
+    .result_result-box {
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(37, 155, 52);
+        border-radius: 10px;
+        box-shadow: 0 5px 6px black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .result_result-box >button{
+        background-color: gray;
+    }
+    
+    .result_result-box >P{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+    }
+    .result_result-box >img{
+       width: 50%;
+    }
